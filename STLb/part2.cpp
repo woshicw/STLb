@@ -5,6 +5,7 @@ CIS 1202
 */
 
 
+
 #include <iostream>
 #include <cmath>
 
@@ -23,7 +24,7 @@ Template half(Template integer)
 }
 int half(int integer)
 {
-    int quotient;
+    double quotient;
 
 
     quotient = round(static_cast<double>(integer) / 2);
